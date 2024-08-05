@@ -7,6 +7,7 @@ body, html {
 
 /* Wyśrodkowanie zdjęcia na stronie */
 body {
+    background: red;
     display: flex;
     justify-content: center; /* Wyśrodkowanie w poziomie */
     align-items: center; /* Wyśrodkowanie w pionie */
@@ -15,11 +16,3 @@ body {
 }
 
 /* Stylizacja zdjęcia */
-#photo {
-    position: absolute; /* Ustawienie zdjęcia jako absolutnego, aby wypełniło kontener */
-    top: 0;
-    left: 0;
-    width: 100vw; /* Szerokość na 100% widoku */
-    height: 100vh; /* Wysokość na 100% widoku */
-    object-fit: cover; /* Powiększa zdjęcie, aby wypełniło kontener bez zmiany proporcji */
-}
